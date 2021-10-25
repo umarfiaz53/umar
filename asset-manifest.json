@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/umar/static/css/main.d3554cc9.chunk.css",
+    "main.js": "/umar/static/js/main.e33cd296.chunk.js",
+    "main.js.map": "/umar/static/js/main.e33cd296.chunk.js.map",
+    "runtime-main.js": "/umar/static/js/runtime-main.b7e32bd2.js",
+    "runtime-main.js.map": "/umar/static/js/runtime-main.b7e32bd2.js.map",
+    "static/js/2.7c5bacb3.chunk.js": "/umar/static/js/2.7c5bacb3.chunk.js",
+    "static/js/2.7c5bacb3.chunk.js.map": "/umar/static/js/2.7c5bacb3.chunk.js.map",
+    "index.html": "/umar/index.html",
+    "static/css/main.d3554cc9.chunk.css.map": "/umar/static/css/main.d3554cc9.chunk.css.map",
+    "static/js/2.7c5bacb3.chunk.js.LICENSE.txt": "/umar/static/js/2.7c5bacb3.chunk.js.LICENSE.txt",
+    "static/media/aboutImg.d2671a77.jpg": "/umar/static/media/aboutImg.d2671a77.jpg",
+    "static/media/analytics.35333f55.jpg": "/umar/static/media/analytics.35333f55.jpg",
+    "static/media/app.a62c05d5.jpg": "/umar/static/media/app.a62c05d5.jpg",
+    "static/media/apple.fe955b5f.jpg": "/umar/static/media/apple.fe955b5f.jpg",
+    "static/media/digimark.daed731b.jpg": "/umar/static/media/digimark.daed731b.jpg",
+    "static/media/homeimg.08e6ffb7.svg": "/umar/static/media/homeimg.08e6ffb7.svg",
+    "static/media/soft.5a32aa9c.jpg": "/umar/static/media/soft.5a32aa9c.jpg",
+    "static/media/web.98aa760e.jpg": "/umar/static/media/web.98aa760e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b7e32bd2.js",
+    "static/js/2.7c5bacb3.chunk.js",
+    "static/css/main.d3554cc9.chunk.css",
+    "static/js/main.e33cd296.chunk.js"
+  ]
+}
