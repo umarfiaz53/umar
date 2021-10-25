@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: rgb(240, 255, 255);
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bolder;
+    cursor: pointer;
+    user-select: none;
+    color: rgb(0, 0, 0);
+}
+
+.logo font{
+    color: #3498db;
+    font-size: 30px;
+}
+
+.menu_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    user-select: none;
+}
+
+.menu_list .list a{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(141, 177, 243);
+}
+
+.menu_list .list .active{
+    transition: all .5s ease-out;
+    color: rgb(68, 89, 99);
+    font-weight: bolder;
+}
+
+.icon{
+    display: none;
+}
+
+
+@media screen and (max-width: 790px) {
+    .menu_list .list a{
+        font-size: 16px;
+    }
+    
+    .logo{
+        font-size: 25px;
+    }
+    .logo font{
+        font-size: 28;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    
+    .inner{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .icon{
+        display: block;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .menu_list .list{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu_list .list:hover{
+        background-color: rgba(219, 229, 245, 0.7);
+    }
+    .menu_list .list a{
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .menu_list{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 39px;
+        left: 0;
+        transition: all .5s ease-in-out;
+        background-color: rgba(244, 248, 255, 0.7);
+    }
+    .menu_list.close{
+        left: -100%;
+        transition: all .5s ease-in-out;
+        overflow-x: hidden;
+    }
+}
+
